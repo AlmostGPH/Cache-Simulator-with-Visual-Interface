@@ -1,0 +1,22 @@
+➜  Tools/CachSim cachesim -h
+ ██████╗ █████╗  ██████╗██╗  ██╗███████╗    ███████╗██╗███╗   ███╗
+██╔════╝██╔══██╗██╔════╝██║  ██║██╔════╝    ██╔════╝██║████╗ ████║
+██║     ███████║██║     ███████║█████╗      ███████╗██║██╔████╔██║
+██║     ██╔══██║██║     ██╔══██║██╔══╝      ╚════██║██║██║╚██╔╝██║
+╚██████╗██║  ██║╚██████╗██║  ██║███████╗    ███████║██║██║ ╚═╝ ██║
+ ╚═════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝╚═╝     ╚═╝
+
+CacheSim 2.0(linux)
+Usage: cachesim [options] parameter [options] parameter ...
+
+CacheSim is a cache simulator with a hit checking mechanism, a mapping display of memory addresses and cache blocks, the implementation of a substitution algorithm, the handling of mismatches between the block size and the data size, and the separation of the data cache from the instruction cache. And with visual interface.
+
+Most used options:
+  -h --help                                                show man page and exit
+  -v --version                                             show simulator version
+  -a --args {Cache_size,Block_size,Associativity}          initial cache size
+  -p --policy 'Replacement_policy'                         initial cache replacement policy
+  -s --sequence mem.sequence                               add your memory access sequence
+  -g --graph                                               use visual interface
+
+For more use please see https://github.com/AlmostGPH/Cache-Simulator-with-Visual-Interface
