@@ -33,6 +33,7 @@ Just download  CacheSimulator.py and run.
 ![image](https://github.com/AlmostGPH/Cache-Simulator-with-Visual-Interface/assets/60679801/d47e7399-0a63-46d4-b3ad-365de2328dc9)
 
 **PLEASE NOTE**
+
 Each line of your memory access sequence file should be of the following form
 
 ``<instruction> <size> <address> ``
