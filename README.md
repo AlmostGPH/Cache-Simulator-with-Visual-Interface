@@ -32,6 +32,20 @@ Just download  CacheSimulator.py and run.
 - help page:
 ![image](https://github.com/AlmostGPH/Cache-Simulator-with-Visual-Interface/assets/60679801/d47e7399-0a63-46d4-b3ad-365de2328dc9)
 
+**PLEASE NOTE**
+Each line of your memory access sequence file should be of the following form
+
+``<instruction> <size> <address> ``
+
+And the 'instruction' part must choose from Read, IFerch or Write
+
+For example：
+```txt
+Read 4 0x70700
+IFetch 4 0x1b4d0
+Write 8 0x6bab8
+```
+
 
 ## Examples
 If there exists a access sequence file called 'mem.txt', you can simulate cache like this:
