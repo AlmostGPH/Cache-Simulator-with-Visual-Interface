@@ -74,6 +74,7 @@ It will show the entire cache, and each time you press a key other than ESC, it 
 
 ## Future work
 
+- Include a running alert and a progress bar when running in a non-graphical interface.
 - Let the user choose whether to display the full command sequence
 
 ![6bbfa25f-df0f-464b-ad47-9d56e49a687d](https://github.com/AlmostGPH/Cache-Simulator-with-Visual-Interface/assets/60679801/ac148752-b2e8-4e66-a54c-f89d8a8b7cca)
