@@ -74,6 +74,7 @@ It will show the entire cache, and each time you press a key other than ESC, it 
 
 ## Future work
 
+- Breakpoint
 - Include a running alert and a progress bar when running in a non-graphical interface.
 - Let the user choose whether to display the full command sequence
 
